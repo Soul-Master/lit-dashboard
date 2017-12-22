@@ -1,0 +1,16 @@
+{
+    "compileOnSave": true,
+    "compilerOptions": {
+        "baseUrl": ".",
+        "target": "es2017",
+        "module": "es2015",
+        "noImplicitAny": true,
+        "strictFunctionTypes": true,
+        "sourceMap": true,
+        "alwaysStrict": true,
+        "noUnusedLocals": true,
+        "experimentalDecorators": true,
+        "outDir": "./build",
+        "lib": [ "es2017", "esnext.asynciterable", "dom" ]
+    }
+}
